@@ -18,3 +18,40 @@ img#myphoto{
     border-radius: 50%;
     margin-right: 10px;
 }
+
+h1#hero{
+    font-family: 'Meddon', cursive;
+}
+
+nav{
+    background-color: #c6c646;
+    border-color: #626200;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 8px;
+}
+
+li{
+    font-family: 'Brygada 1918', serif;
+    font-size: 12px;
+    height: 15px;
+    justify-content: space-around;
+}
+
+footer{
+    position: fixed;
+    align-items: center;
+    bottom: 0px;
+    padding: 8px;
+}
+
+main{
+    font-family: 'Brygada 1918', serif;
+    font-size: 12px;
+    text-align: justify;
+    padding: 25px;
+}
