@@ -19,8 +19,19 @@ img#myphoto{
     margin-right: 10px;
 }
 
+section#hero{
+    text-align: center;
+    margin: 0px;
+}
+
 h1#hero{
     font-family: 'Meddon', cursive;
+    margin-bottom: -28px;
+}
+
+h4#hero{
+    font-family: 'Brygada 1918', serif;
+    font-size: 12px;
 }
 
 nav{
@@ -28,23 +39,44 @@ nav{
     border-color: #626200;
 }
 
-ul{
+nav ul{
     display: flex;
-    justify-content: space-evenly;
     list-style: none;
-    padding: 8px;
 }
 
-li{
+nav ul li{
     font-family: 'Brygada 1918', serif;
     font-size: 12px;
-    height: 15px;
-    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+nav ul li a:hover{
+    background-color: pink;
+    border-bottom: 3px solid palevioletred;
 }
 
 footer{
+    display: flex;
     position: fixed;
     align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 100%;
     bottom: 0px;
     padding: 8px;
 }
