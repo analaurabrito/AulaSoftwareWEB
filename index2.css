@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+section#links{
+    display: flex;
+    background-color: olive;
+    color: white;
+    padding: 10px;
+    
+}
+
+h1{
+    width: 100%; 
+}
+
+section ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 5px;
+    padding: 10px;
+}
+
+section ul li{
+    justify-content: space-between;
+    font-size: small;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
